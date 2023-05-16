@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    color: white;
+}
+.h1{
+    color: goldenrod;
+}
+a{
+    text-decoration: none;
+    margin-left: 90%;
+}
+a:hover{
+    color: goldenrod;
+    border-bottom: .1rem solid goldenrod;
+    padding: .5rem;
+}

@@ -1,0 +1,109 @@
+img.coffeelogo{
+    height: 70px;
+    width: 70px;
+    padding-right: 0%;
+    margin: 0%;
+    border: 0%;
+}
+*{
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+   
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5rem;
+}
+
+.btn{
+    margin-top: 1rem; 
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: goldenrod;
+    cursor: pointer;
+ }
+ 
+ .btn:hover{
+     letter-spacing: .2rem;
+ }
+
+ section{
+    padding: 2rem 7%;
+}
+ 
+
+
+ body{
+    margin: 0;
+    padding: 0;
+    background: url(login.png);
+    background-size: cover;
+    
+ }
+
+ .loginbox{
+    width: 320px;
+    height: 420px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+
+ }
+
+ h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+ }
+
+ .loginbox p{
+    margin: .5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+ }
+.loginbox input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+
+ .remember-forgot a{
+  color: red;
+ }
+ .login-register a{
+    color: aqua;
+ }

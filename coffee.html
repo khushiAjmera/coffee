@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--left
+    1. contact form using javascript and have connectivity through database
+    2. login page using javascript and backend connectivity and have to create sign up option also
+    3. cart page modification and the order placed to be entered in database 
+    4. comments on each file to easily understand and have youtube vedio-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="cart.html">
+    <link rel="stylesheet" href="contact.html">
+    <!--Here we connected cart and contact page to our main page-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img class ="coffeelogo" src="logo.jpg" alt="coffee">
+        <!--It's the logo of our page-->
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="ssearch">
+        <a href="login.html" target="_blank">
+            <!-- This is the login page connected to our cart image -->
+            <img src="cart_btn.png" alt="cart"  style="height: 40px; width: 40px;">
+        </a>
+    </div>
+
+</header> 
+<!-- This is the Home section -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh coffee in the Morning</h3>
+        <p>Science may never come up with a better office communication system than the coffee break.</p>
+        <a  href="#menu" class="btn" >get yours now </a>
+        <!-- Here we connected menu page to get yours now button -->
+    </div>
+</section>
+<!-- This is about section -->
+<section class="about" id="about">
+    <div class="row">
+        <div class="image">
+            <table>
+          <td> <img class="about" src="about.jpg" alt="about" style="width: 120%;"></td> 
+        </div>
+        <td style="color: white; padding-left: 120px; font-size: larger;"> <div class="content">
+            <h1>What makes our coffee special?</h1>
+            <hr>
+            <br><br><br>
+            <p>The first thing that comes to mind when thinking about specialty coffee is its advanced quality. The flavors hidden in a cup of coffee are rich and crisp, and this comes not just from the quality of the specialty coffee beans, but from the work ethic and dedication put into it by the farmer.</p>
+            <p>A big part of what makes coffee smell and taste so complex and delicious is the presence of aromatic compounds in roasted coffee beans. Immediately after roasting, these compounds begin to escape from the bean in a process called degassing — taking a lot of flavor with them!</p>
+        </div></td>
+    </table>
+    <br>
+    <!-- Here we connected ifo page to learn more button -->
+        <a href="info.html" class="btn" target="_blank">Learn more</a>
+    </div>
+</section>
+<!-- This is menu section -->
+<section class="menu" id="menu">
+<table class="menu1">
+    <!-- Here we have multiple objects in menu and as you click on cart they will take you to login page
+    and after login they will take you to cart page -->
+    <tr>
+        <td><img src="coffeemenu\1.jpg" alt="Americano"><center><br>Americano<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\2.png" alt="Cortado"><center><br>Cortado<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\3.jpg" alt="Cold Brew"><center><br>Cold Brew<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\4.jpg" alt="Affogato"><center><br>Affogato<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\5.jpg" alt="Galao"><center><br>Galao<br>1000/-<br><br>
+                       <a href="login.html"class="btn" target="_blank">Add to cart</a> </center></td>
+    </tr>
+    <tr>
+        <td><img src="coffeemenu\6.jpg" alt="Cappuccino"><center><br>Cappuccino<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\7.jpg" alt="Espresso"><center><br>Espresso<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\8.jpg" alt="Mocha"><center><br>Mocha<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\9.jpg" alt="Flat White"><center><br>Flat White<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="coffeemenu\10.jpg" alt="Iced Coffee"><center><br>Iced Coffee<br>1000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+    </tr>
+
+</table>
+</section>
+<!-- This is product section -->
+<section class="Products" id="products">
+   <table class="product1">
+        <!-- Here we have multiple objects in menu and as you click on cart they will take you to login page
+    and after login they will take you to cart page -->
+    <tr>
+        <td><img src="bean\bean1.png" alt="bean1"><center><br>Bean1<br>2000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="bean\bean2.png" alt="bean2"><center><br>Bean2<br>2000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+    </tr>
+    <tr>
+        <td><img src="bean\bean3.png" alt="bean3"><center><br>Bean3<br>2000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+        <td><img src="bean\bean4.png" alt="bean4" target="_blank"><center><br>Bean4<br>2000/-<br><br>
+            <a href="login.html"class="btn" target="_blank">Add to cart</a></center></td>
+    </tr>
+
+   </table>
+</section>
+<!-- This is review section -->
+<section class="review" id="review">
+<div class="box-container">
+<div class="box">
+<img src="" alt="" class="quote">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, repellat voluptatum, velit cumque ipsa quod eligendi eum quam laborum ipsam, illo similique nesciunt rem officia dolorem! Magni aperiam asperiores vel!</p>
+<img src="khushi.jpeg" alt="" class="user">
+<h3>Khushi Ajmera</h3>
+</div>
+
+<div class="box">
+    <img src="" alt="" class="quote">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, repellat voluptatum, velit cumque ipsa quod eligendi eum quam laborum ipsam, illo similique nesciunt rem officia dolorem! Magni aperiam asperiores vel!</p>
+    <img src="darshita.jpg" alt="" class="user">
+    <h3>Darshita Anyawada</h3>
+    </div>
+</div>
+
+</section>
+<!-- This is contact section -->
+<section class="contact" id="contact">
+<div class="row">
+<!-- as you will click on get in touch it will take you to conatct page and you can add your review and any comment there -->
+   <form action="">
+    <h2>get in touch</h2>
+    <br>
+    <a  href="contact.html" target="_blank" class="btn" >Contact Now </a>
+   </form>
+</div>
+</section>
+
+<section class="footer">
+    <div class="links">
+        <a href="#">home</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

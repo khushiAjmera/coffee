@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+.btn{
+    margin-top: 1rem; 
+    display: inline-block;
+    padding: .6rem 3rem;
+    font-size: 1rem;
+    color: white;
+    background: goldenrod;
+    cursor: pointer;
+    margin-left: 27%;
+ }
+ 
+ .btn:hover{
+     letter-spacing: .2rem;
+ }
+ *{
+    text-decoration: none;
+}
+.registrationbox{
+    width: 320px;
+    height: 470px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+ }
+
+ .registrationbox p{
+    margin: .5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+ }
+ .registrationbox input[type="text"], input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10%;
+ }
+ .registrationbox input[type="checkbox"]{
+    margin-left: 10%;
+ }
+
+ img {
+  background-size: cover;
+  height: 540px;
+  width: 100%;
+  padding-right: 0%;
+  margin: 0%;
+  border: 0%;
+}
+.sign a{
+   color: aqua;
+}
+
+

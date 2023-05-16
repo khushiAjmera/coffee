@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body{ 
+            background-image: url(contactus.jpg); 
+            background-size: cover; }
+
+        .heading{ text-align: center; 
+                background-color: azure; 
+                font-family: Arial, Helvetica, sans-serif; } 
+         form{ background-color: white; 
+                    width: 400px;
+                     text-align: center; 
+                     padding-top: 0%; }
+          table{ border: 3px solid rgb(251, 251, 251);
+            padding: 1px; margin: auto; } 
+        .pic{ background-image: url(1.jpg); background-size: cover; } 
+        .max{ font-size: smaller; color: red; }
+        .btn{
+   margin-top: 1rem; 
+   display: inline-block;
+   color: white;
+   background: goldenrod;
+   cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+    </style>
+</head>
+<body>
+    <h1> <center>Contact Form</center> </h1>
+
+     <table> 
+        <tr> 
+            <td> 
+                <form> 
+                    <div >
+                         <p>First Name:</p> <input type="text" placeholder="Your First Name...">
+                          <p>Last Name:</p> <input type="text" placeholder="Your Last Name...">
+                          <p><label for="country">Country: </label>
+                            <select id="country" name="country">
+                                <option value="country">--Select--</option>
+                              <option value="australia">Australia</option>
+                              <option value="canada">Canada</option>
+                              <option value="usa">USA</option>
+                              <option value="india">India</option>
+                            </select></p>
+                            <p><label for="subject">Subject:</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></p>
+    <input type="submit" value="Submit" class="btn">
+  </form>
+</div>
+    
+</body>
+</html>

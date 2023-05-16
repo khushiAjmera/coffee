@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <!--Registration form -->
+    <img src="register.jpg" alt="Register">
+    <div class="registrationbox" >
+        <h1>Registration</h1>
+        <form >
+            <p>Username*:</p>
+            <input type="text" name="" placeholder="Enter Name here..."><br>
+            <span class="error" ng-show="loginForm.username.$error.required"></span>
+            
+            <p>Email*:</p>
+            <input type="email" name="" placeholder="Enter Email here..."><br>
+            <span class="error" ng-show="loginForm.email.$error.required"></span>
+
+            <p>Password*:</p>
+            <input type="password" name="" placeholder="Enter Password here..."><br>
+            <span class="error" ng-show="loginForm.password.$error.required"></span><br><br>
+
+            <label ><input type="checkbox">I agree to the terms & conditions</label><br><br>
+        
+            <a  href="cart.html"  class="btn" >Sign Up </a><br><br>
+            <p class="sign"><a href="login.html">Sign in</a></p>
+        </form>
+    </div>
+</body>
+</html>
